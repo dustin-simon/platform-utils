@@ -1,0 +1,25 @@
+{
+    "name": "dustin/platform-utils",
+    "type": "library",
+    "description": "Utilities for Shopware platform development",
+    "keywords": [
+        "Shopware 6",
+        "util",
+        "platform",
+        "shopware"
+    ],
+    "license": "MIT",
+    "authors": [{
+        "name": "Dustin Simon"
+    }],
+    "autoload": {
+        "psr-4": { "Dustin\\PlatformUtils\\": "src/" },
+        "exclude-from-classmap": ["src/Test/"]
+    },
+    "require": {
+        "php": "^7.4 || ^8"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.6"
+    }
+}
