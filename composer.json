@@ -1,5 +1,6 @@
 {
     "name": "dustin/platform-utils",
+    "version": "v1.0.0",
     "type": "library",
     "description": "Utilities for Shopware platform development",
     "keywords": [
