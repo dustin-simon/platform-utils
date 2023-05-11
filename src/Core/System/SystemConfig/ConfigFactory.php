@@ -15,7 +15,7 @@ class ConfigFactory
 {
     public const GLOBAL = 'global';
 
-    public const PER_SALES_CHANNEL = 'perSalesChannel';
+    public const PER_SALES_CHANNEL = 'per_sales_channel';
 
     /**
      * @var EntityRepository
