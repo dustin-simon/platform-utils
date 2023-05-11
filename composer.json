@@ -1,5 +1,6 @@
 {
     "name": "dustin/platform-utils",
+    "version": "v1.0.0",
     "type": "library",
     "description": "Utilities for Shopware platform development",
     "keywords": [
@@ -17,6 +18,8 @@
         "exclude-from-classmap": ["src/Test/"]
     },
     "require": {
+        "dustin/encapsulation": "~1.2",
+        "shopware/core": "~6.4",
         "php": "^7.4 || ^8"
     },
     "require-dev": {
